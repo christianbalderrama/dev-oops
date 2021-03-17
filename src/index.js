@@ -1,9 +1,10 @@
 import "regenerator-runtime";
-
+import morgan from "morgan";
 import express from "express";
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+app.use(morgan("dev"));
 app.get("/", async(_, res) => {
   return res.send("Hello, world! dd");
 });
