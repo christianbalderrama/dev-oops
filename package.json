@@ -1,0 +1,24 @@
+{
+  "name": "dev-oops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianbalderrama/dev-oops.git"
+  },
+  "keywords": [],
+  "author": "Christian Balderrama <0christianbalderrama@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christianbalderrama/dev-oops/issues"
+  },
+  "homepage": "https://github.com/christianbalderrama/dev-oops#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
