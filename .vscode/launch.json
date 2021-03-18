@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "configurations": [
+    {
+      "type": "node",
+      "restart": false,
+      "args": ["dist/index.js"],
+      "cwd": "${workspaceRoot}",
+      "console": "integratedTerminal",
+      "sourceMaps": true,
+      "request": "launch",
+      "name": "Launch App",
+      "protocol": "inspector",
+      "autoAttachChildProcesses": true,
+    },
+  ]
+}
