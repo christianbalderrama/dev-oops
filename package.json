@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npx babel ./src -d ./dist",
     "production": "npm run build && terser ./dist/index.js --compress --mangle -o ./dist/minified.js && node ./dist/minified.js",
-    "start": "nodemon --watch ./src --exec npm run build && node ./dist/index.js",
+    "dev": "npm run build && node ./dist/index.js",
+    "start": "nodemon --watch ./src --exec npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
